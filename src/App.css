@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 1280px;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: rgb(0, 0, 0);
+}
+input {
+  max-width: 100%;
+  margin-top: 15px;
+  min-width: 250px;
+  font-size: 0, 75rem;
+  background-color: inherit;
+  padding: 5px 5px 5px 5px;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+input:focus {
+  border-bottom: 1px solid rgba(122, 142, 205, 1);
+}
+button {
+  max-width: 100%;
+  min-width: 250px;
+  max-height: 100%;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 30px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  background-color: rgba(31, 81, 255, 1);
+  font-family: inherit;
+  font-size: 1rem;
+  border: 0.5px solid transparent;
+  cursor: pointer;
+  transition: box-shadow 200ms linear;
+  font-size: 0.75rem;
+}
+button:hover {
+  box-shadow: 1px 1px 5px 5px rgba(242, 243, 245, 1);
+}
+form {
+  min-width: 350px;
+  margin-top: 50px;
+  max-width: 700px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  border: 1px solid, transparent;
+  box-shadow: 1px 1px 5px 5px rgba(242, 243, 245, 1);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.errorMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: red;
+  margin-top: 5px;
+  align-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
