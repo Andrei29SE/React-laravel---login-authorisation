@@ -128,11 +128,7 @@ function App() {
 
         <button type='submit'>Submit</button>
       </form>
-
-      {/* Error Message */}
       {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
-
-      {/* JWT Token Display */}
       {token && (
         <div>
           <h2>JWT Token:</h2>
